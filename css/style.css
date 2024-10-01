@@ -517,9 +517,7 @@ color: var(--second-bg-color);
     }
     .contato form .input-box input {
         width: 100%;
-    }
-
-      
+    }    
 }
 
 @media (max-width: 365px) {

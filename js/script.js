@@ -15,10 +15,10 @@
     selection.forEach(sec => {
         let top = window.scrollY;
         let offset = sec.offsetTop - 150;
-        let heigth = sec.offsetHeight;
+        let height = sec.offsetHeight;
         let id = sec.getAttribute('id');
 
-        if(top >= offset && top < offset + heigth) {
+        if(top >= offset && top < offset + height) {
             navlinks.forEach(links => {
                 links.classList.remove('active');
                 document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
@@ -49,12 +49,12 @@ ScrollReveal({
 ScrollReveal().reveal('.home-conteudo, .cabecalho', { origin: 'top' });
 ScrollReveal().reveal('.home-img, .skills-container, .portifolio-box, .contato form', { origin: 'bottom' });
 ScrollReveal().reveal('.home-conteudo h1, .sobre-imagem', { origin: 'left' });
-ScrollReveal().reveal('.home-conteudo p, .sobre-conteudo', { origin: 'rigth' });
+ScrollReveal().reveal('.home-conteudo p, .sobre-conteudo', { origin: 'right' });
 
 /*================================================== typed js ==================================================*/
 
 const typed = new Typed('.multiple-text', {
-    strings: ['Frontend Developer Jr','Administrador de Empresa'],
+    strings: ['Tec. em Inteligência Artificial Aplicada','Frontend Developer Jr'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
