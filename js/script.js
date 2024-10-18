@@ -54,7 +54,12 @@ ScrollReveal().reveal('.home-conteudo p, .sobre-conteudo', { origin: 'right' });
 /*================================================== typed js ==================================================*/
 
 const typed = new Typed('.multiple-text', {
-    strings: ['Tec. em Inteligência Artificial Aplicada','Frontend Developer Jr'],
+    strings: [
+        'Graduando em Inteligência Artificial Aplicada',
+        'Frontend Angular Developer Jr',
+        'Social Media'
+
+    ],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
