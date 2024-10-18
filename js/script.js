@@ -56,7 +56,8 @@ ScrollReveal().reveal('.home-conteudo p, .sobre-conteudo', { origin: 'right' });
 const typed = new Typed('.multiple-text', {
     strings: [
         'Graduando em Inteligência Artificial Aplicada',
-        'Frontend Angular Developer Jr',
+        'Frontend Developer',
+        'Angular Developer',
         'Social Media'
 
     ],
